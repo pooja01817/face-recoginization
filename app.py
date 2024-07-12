@@ -2,7 +2,7 @@ from flask import Flask, request, redirect, url_for, render_template
 import os
 
 app = Flask(__name__)
-UPLOAD_FOLDER = r'C:\Users\manda\OneDrive\Documents\face_rec\images'
+UPLOAD_FOLDER = r'C:\Users\OneDrive\Documents\face_rec\images' //use ur own path  where ur images file is stored
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
